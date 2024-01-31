@@ -56,11 +56,7 @@ export const ProductCard = ({
           increaseBy,
           reset
         }
-        )}
-        {/* <ProductImage img={product.img} />
-      <ProductTitle title={product.title} />
-      <h1 className={styles.productCard}></h1>
-      <ProductButtons counter={counter} increaseBy={increaseBy} /> */}
+        )}       
       </div>
     </Provider>
   );
