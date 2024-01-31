@@ -21,7 +21,7 @@ export const useProduct = ({
     // setCounter((prev) => Math.max(prev + value, 0));
     let newValue = Math.max(counter + value, 0);
 
-    console.log({newValue})
+    // console.log({newValue})
     // if(newValue - 1  == initialValues?.maxCount ) return;
     if(initialValues?.maxCount) newValue = Math.min(newValue, initialValues.maxCount)
     setCounter(newValue);
